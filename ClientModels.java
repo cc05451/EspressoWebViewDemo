@@ -15,6 +15,7 @@ public class ClientModels {
         public int a;
         pirvate int unittest;
         private int c;
+        public int ssss;
         BaseResonseModel baseResonseModel = ModelHelper.random(BaseResonseModel.class);
         QiNiuModel qiNiuModel = ModelHelper.random(QiNiuModel.class);
 
