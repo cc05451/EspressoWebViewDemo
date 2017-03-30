@@ -12,7 +12,7 @@ import utils.ModelHelper;
 
 public class ClientModels {
     public static QiNiuModel generateQiNiuModel() throws InstantiationException, IllegalAccessException, NoSuchFieldException {
-        public int a;
+        public int ssss;
         BaseResonseModel baseResonseModel = ModelHelper.random(BaseResonseModel.class);
         QiNiuModel qiNiuModel = ModelHelper.random(QiNiuModel.class);
 
