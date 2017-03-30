@@ -14,6 +14,7 @@ public class ClientModels {
     public static QiNiuModel generateQiNiuModel() throws InstantiationException, IllegalAccessException, NoSuchFieldException {
         public int a;
         pirvate int unittest;
+        private int c;
         BaseResonseModel baseResonseModel = ModelHelper.random(BaseResonseModel.class);
         QiNiuModel qiNiuModel = ModelHelper.random(QiNiuModel.class);
 
