@@ -13,6 +13,7 @@ import utils.ModelHelper;
 public class ClientModels {
     public static QiNiuModel generateQiNiuModel() throws InstantiationException, IllegalAccessException, NoSuchFieldException {
         public int a;
+        pirvate int unittest;
         BaseResonseModel baseResonseModel = ModelHelper.random(BaseResonseModel.class);
         QiNiuModel qiNiuModel = ModelHelper.random(QiNiuModel.class);
 
